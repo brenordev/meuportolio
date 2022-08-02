@@ -356,20 +356,17 @@ main {
   color: #00d7ff;
   overflow: hidden;
 }
-.box-1 {
-  background-image: url(/assets/images/agencia_bold.png);
-  background-position: center;
-  background-size: cover;
+.img_project{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: relative;
+  top: 0;
+  left: 0;
 }
-.box-2 {
-  background-image: url(/assets/images/js_project.png);
-  background-position: center;
-  background-size: cover;
-}
-.box-3 {
-  background-image: url(/assets/images/portfolio.png);
-  background-position: center;
-  background-size: cover;
+.img_project img{
+  width: 100%;
+  height: 100%;
 }
 .description_project {
   width: 100%;
@@ -382,7 +379,6 @@ main {
   position: absolute;
   top: 100%;
   color: var(--gray);
-  visibility: hidden;
   transition: all 0.4s ease;
   background-color: var(--blue-dark);
 }
