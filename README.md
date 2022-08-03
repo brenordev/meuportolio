@@ -24,3 +24,5 @@ tais como as que tem pendentes para ser feita.
 - [ ] Toda parte back-end do formulário.
 
 ## Screenshots
+
+<img alt="Gif Portfólio" title="Gif Portfólio" src="./assets/images/gif_portfolio.gif"/>
