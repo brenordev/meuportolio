@@ -25,5 +25,5 @@ tais como as que tem pendentes para ser feita.
 
 ## Screenshots
 
-<img alt="Gif Portfólio" title="Gif Portfólio" src="./assets/images/git_portfolio_desktop.gif"/></br>
-<img alt="Gif Portfólio Mobile" title="Gif Portfólio Mobile" src="./assets/images/git_portfolio_mobile.gif"/>
+<img alt="Gif Portfólio" title="Gif Portfólio" src="./assets/images/gif_portfolio_desktop.gif"/></br>
+<img alt="Gif Portfólio Mobile" title="Gif Portfólio Mobile" src="./assets/images/gif_portfolio_mobile.gif"/>
