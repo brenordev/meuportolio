@@ -5,7 +5,7 @@
 • <a href="https://brenordev.github.io/portfolio/">🚀 Visualizar</a>
 </p>
 
-Portfólio criado a princípio para fins de estudos mas agora usarei para publicação de projetos que eu venha fazer futuramente, ainda sim pretendo fazer melhorias
+Portfólio criado a princípio para fins de estudos mas agora usarei para exposição de projetos e trabalhos que eu venha fazer futuramente, ainda sim pretendo fazer melhorias
 tais como as que tem pendentes para ser feita.
 
 ## Stacks utilizadas
@@ -25,4 +25,5 @@ tais como as que tem pendentes para ser feita.
 
 ## Screenshots
 
-<img alt="Gif Portfólio" title="Gif Portfólio" src="./assets/images/gif_portfolio.gif"/>
+<img alt="Gif Portfólio" title="Gif Portfólio" src="./assets/images/git_portfolio_desktop.gif"/></br>
+<img alt="Gif Portfólio Mobile" title="Gif Portfólio Mobile" src="./assets/images/git_portfolio_mobile.gif"/>
