@@ -12,15 +12,20 @@
   --blue-medium: #205375;
   --blue-light: #00d7ff;
   --gray: #efefef;
+  --primary-color:#191919;
+  --secondary-color :#F4F4F4;
 }
 html,
 body {
   scroll-behavior: smooth;
   position: relative;
+  background-color: #171717;
 }
 body {
   overflow-x: hidden;
-  background: #171717;
+  background-color: var();
+  transition: all .3s ease;
+
 }
 body::-webkit-scrollbar {
   width: 5px;
@@ -69,17 +74,6 @@ section {
 .title_section h2{
   color: var(--blue-light);
   text-shadow: 1px 2px var(--gray);
-}
-.title_section::before{
-  content: '';
-  width: 150px;
-  height: 3px;
-  background-color: #181818;
-  box-shadow: 0 0 10px rgba(0, 0, 0,.5);
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
 }
 /*=========>>> HEADER <<<<-=========*/
 .header {
@@ -451,8 +445,8 @@ main {
   outline: none;
   border: none;
   padding: 5px 10px;
+  border: 2px solid #252525;
   background-color: #202020;
-  border: 2px solid #323232;
   border-radius: 3px;
 }
 .contact form textarea {
@@ -461,8 +455,8 @@ main {
   outline: none;
   border: none;
   padding: 5px 0 5px 10px;
+  border: 2px solid #252525;
   background-color: #202020;
-  border: 2px solid #323232;
   border-radius: 3px;
   resize: none;
 }
@@ -472,8 +466,9 @@ main {
   cursor: pointer;
   font-weight: 800;
   font-size: 1.1rem;
+  background-color: #202020;
+  border: 2px solid #252525;
   color: var(--blue-light);
-  border: 2px solid var(--blue-light);
 }
 .button_submit {
   position: relative;
@@ -489,16 +484,20 @@ main {
   transition: all 0.4s ease;
   cursor: pointer;
   opacity: 0;
-  background-color: var(--blue-light);
+  border: 2px solid transparent;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+}
+.contact form input[type="submit"]:hover {
+  border: 2px solid var(--blue-light);
 }
 .button_submit:hover .icon_submit {
   opacity: 1;
   position: absolute;
   left: calc(100% - 50px);
-  color: var(--blue-medium);
 }
 .contact form input:focus,
 .contact form textarea:focus {
@@ -631,5 +630,13 @@ main {
   }
   .warning_contact {
     width: 100%;
+  }
+  .image3d_home{
+    visibility: hidden;
+  }
+  .social_midia{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
