@@ -19,7 +19,7 @@ tais como as que tem pendentes para ser feita.
 ## Tarefas pendentes
 - [X] Botão ScrollTop.
 - [ ] Melhorias no código.
-- [ ] Botão tema Ligh/Dark Mode.
+- [ ] Botão tema Light/Dark Mode.
 - [ ] Menu mobile.
 - [ ] Toda parte back-end do formulário.
 
