@@ -201,7 +201,7 @@ main {
 }
 /*=========>>> ABOUT <<<<-=========*/
 .apresentation_about {
-  width: 100%;
+  width: 60%;
   margin-top: 5rem;
   font-size: 1rem;
 }
@@ -231,8 +231,7 @@ main {
   justify-content: center;
   padding: 10px;
   border-radius: 3px;
-  border: 1px solid #252525;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #202020;
   position: relative;
   left: 0;
 }
@@ -245,12 +244,15 @@ main {
   left: 0;
   top: 0;
   transform-origin: left;
-  transition: all 0.5s ease;
-  border-radius: 0px 3px 3px 0px;
-  z-index: -1;
+  transition: all 0.4s ease;
+  border-radius: 3px;
 }
 .box_map:hover::before {
   width: 100%;
+}
+.box_map span{
+  position: relative;
+  z-index: 1;
 }
 .btnDownloadCV {
   width: 200px;
@@ -610,6 +612,9 @@ main {
     display: none;
   }
   .map_studies {
+    width: 100%;
+  }
+  .apresentation_about{
     width: 100%;
   }
   @media screen and (max-width: 500px) {
