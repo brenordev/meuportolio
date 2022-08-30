@@ -249,6 +249,11 @@ main {
 }
 .box_map:hover::before {
   width: 100%;
+  color: #000;
+}
+.box_map:hover span{
+  color: var(--primary-color);
+  font-weight: bold;
 }
 .box_map span{
   position: relative;
