@@ -121,7 +121,6 @@ section {
 .nav_links {
   width: 100px;
   font-weight: 700;
-  margin-left: 35px;
 }
 .nav_links:hover {
   color: var(--blue-light);
